@@ -2,6 +2,10 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "AI Speech to Text Chrome Extension",
+    description: "A Chrome extension leveraging AssemblyAI's API for real-time speech-to-text transcription with a user-friendly overlay interface.",
+  },
+  {
     title: "AI-Driven Teaching Assistant",
     description: "An AI-powered tool that provides 24/7 support to students using Python, MongoDB, LangChain, and OpenAI's API.",
   },
