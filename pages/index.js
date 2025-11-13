@@ -32,11 +32,17 @@ export default function Home() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8">
         {/* Left Side: Text Content */}
         <div className="flex-1 text-center md:text-left">
-          <h1 className="text-6xl font-bold text-primary mb-4">
+          <h1 className="text-4xl font-bold text-primary mb-6 md:text-6xl">
             Hi, I'm <span className="text-accent">Uzair Salim</span>
           </h1>
-          <p className="text-xl mb-8">
-            A passionate Computer Science student at Western University with experience in software development, AI, and team leadership.
+          <p className="text-2xl font-semibold text-secondary mb-4 md:text-3xl">
+            Building the next generation of AI tools for healthcare and education.
+          </p>
+          <p className="text-xl mb-4 text-text/80">
+            Founder of PulseStackAI, and creator of Aura-Chart, an AI-powered medical scribe for pediatric clinics.
+          </p>
+          <p className="text-xl mb-8 text-text/80">
+            Passionate about human-centered design, intelligent systems, and the intersection of AI, medicine, and meaning.
           </p>
           <div className="flex justify-center md:justify-start gap-4">
             <Link href="/projects" className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-secondary transition">

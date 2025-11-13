@@ -12,7 +12,7 @@ export default function Navbar() {
             About Me
           </Link>
           <Link href="/projects" className="text-white hover:text-accent transition hover:scale-105">
-            Projects
+            Portfolio
           </Link>
           <Link href="/experience" className="text-white hover:text-accent transition hover:scale-105">
             Experience

@@ -63,8 +63,8 @@ export default function About() {
             variants={fadeInVariants}
             className="flex-1"
           >
-            <p className="text-lg mb-6">
-              I'm a passionate Computer Science student at Western University with experience in software development, AI, and team leadership.
+            <p className="text-lg mb-6 text-text/80">
+              I build human-centered AI products for healthcare and education—bridging clinical teams, intelligent systems, and thoughtful design.
             </p>
           </motion.div>
         </div>

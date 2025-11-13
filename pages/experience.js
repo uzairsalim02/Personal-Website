@@ -1,8 +1,23 @@
 import { motion } from "framer-motion";
-import { FaLaptopCode, FaUsers, FaFlask } from "react-icons/fa";
+import { FaHeartbeat, FaLaptopCode, FaUsers, FaFlask } from "react-icons/fa";
 
 
 const experiences = [
+    {
+      title: "Lead Software Engineer",
+      company: "Pulse Stack",
+      duration: "May 2025 – September 2025",
+      description: [
+        "Designed and implemented a full-stack platform with a React.js client, Python services, PostgreSQL, and Google Cloud (Cloud Run, Firestore, Speech-to-Text).",
+        "Integrated OpenAI GPT-4 and Gemini models with tailored prompt engineering to produce accurate, clinician-ready notes and streamline workflows.",
+        "Built SQL-driven ingestion and retrieval in Postgres—upserts, JSONB document storage, indexing, and pgvector—for a production-grade RAG medication knowledge base.",
+        "Led user-focused discovery, collected clinician feedback, and iterated on UX flows to increase adoption across multiple clinics.",
+        "Implemented AES-256 encryption, credential hashing, and secure data storage patterns to meet healthcare compliance requirements.",
+        "Co-founded and led delivery of a medical AI assistant (Chrome extension + FastAPI backend) deployed in clinics, reducing physician charting time by 60%.",
+        "Leveraged rapid self-learning to ship production features across engineering, product design, and client communication under tight timelines.",
+      ],
+      icon: <FaHeartbeat className="text-4xl text-primary" />,
+    },
     {
       title: "Software Engineer Intern",
       company: "AudienceView",
